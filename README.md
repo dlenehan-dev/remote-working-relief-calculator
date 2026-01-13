@@ -1,4 +1,5 @@
 # Remote Working Relief Calculator
+**Status:** ✅ Completed – Portfolio Project #1
 
 A Python application that calculates remote working tax relief based on
 Irish Revenue rules.
