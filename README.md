@@ -76,4 +76,12 @@ Notes
 This project is intended as a learning and portfolio exercise and reflects
 real-world Python development practices.
 
+---
+
+## Recent Updates
+
+### June 2026
+- Added API test coverage using FastAPI TestClient
+- Improved test reliability for `/relief` endpoint
+- Strengthened validation tests for negative input scenarios
 
