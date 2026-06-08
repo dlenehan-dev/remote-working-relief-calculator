@@ -5,10 +5,14 @@ This module defines file paths and default values used by the
 remote working relief calculator.
 """
 
+from pathlib import Path
+
 # CSV file locations
-ELECTRICITY_FILE = "data/electricity.csv"
-GAS_FILE = "data/gas.csv"
-BROADBAND_FILE = "data/broadband.csv"
+DATA_DIR = Path("data")
+
+ELECTRICITY_FILE = DATA_DIR / "electricity.csv"
+GAS_FILE = DATA_DIR / "gas.csv"
+BROADBAND_FILE = DATA_DIR / "broadband.csv"
 
 # Default inputs
 YEAR = 2024

@@ -60,6 +60,8 @@ def main():
     Run the interactive remote working relief calculator.
     """
     logger.info("Remote Working Relief Calculator (Interactive Mode)")
+    print(type(ELECTRICITY_FILE))  # Temporary check
+
 
     print("\n=== Remote Relief Calculator (Interactive) ===")
 
@@ -106,6 +108,6 @@ def main():
     print(f"Final Tax Relief: €{relief:.2f}")
     print("========================================\n")
 
-
+    
 if __name__ == "__main__":
     main()
